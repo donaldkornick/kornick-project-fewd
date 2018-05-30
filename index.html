@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Character Sheet</title>
+    <meta name="author" content="Donnie Kornick">
+    <meta name="description" content="MTG RPG Character Sheet">
+    <meta name="keywords" content="RPG, MTG, Magic, Magic: The Gathering, Character Sheet">
+    <link rel="stylesheet" href=".css/normalize.css" type="normalize">
+    <link rel="stylesheet" href=".css/style.css" type="css">
+    <script src="js.app"></script>
+
+  </head>
+  
+  <body>
+
+    <form method="POST">
+    <header>
+    <h1>Character Sheet</h1>
+    <label for="player">Player Name</label>
+    <input type="text" name="name" id="player"><br>
+    </header>
+    
+    <div id="info">   
+        
+        <h2>Character Info</h2><br>
+        
+        <label for="char_name">Name</label>
+        <input type="text" name="name" id="char_name"><br>
+        
+        <label for="race">Race</label>
+        <select name="race" id="race">
+            <option value="human">Human</option>
+            <option value="dwarf">Dwarf</option>
+            <option value="lox">Lox</option>
+            <option value="elf">Elf</option>
+            <option value="rhox">Rhox</option>
+            <option value="fox">Fox</option>
+            <option value="kith">Kith</option>
+            <option value="merfolk">Merfolk</option>
+            <option value="orc">Orc</option>
+            <option value="rat">Rat</option>
+            <option value="snake">Snake</option>
+            <option value="vedalken">Vedalken</option>
+            <option value="viashino">Viashino</option>
+        </select><br>
+        
+        <label for="class">Class</label>
+        <select name="class" id="class">
+            <option value="townsfolk">Townsfolk</option>
+            <option value="cleric">Cleric</option>
+            <option value="wizard">Wizard</option>
+            <option value="soldier">Soldier</option>
+            <option value="fighter">Fighter</option>
+            <option value="rogue">Rogue</option>
+        </select><br>
+
+    </div>
+    <div id="attributes">
+
+        <h2>Attributes</h2>
+
+        <label for="power">Power</label>
+        <label for="toughness">Toughness</label>
+        <label for="life">Life</label>
+        <label for="mana">Mana</label>
+        <label for="range">Range</label>
+        <label for="intelligence">Intelligence</label>
+
+
+    </div>
+
+    
+    </form>
+  </body>
+</html>
